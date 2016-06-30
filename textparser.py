@@ -24,6 +24,7 @@ class hp(HTMLParser.HTMLParser):
             print (data)
 
 
+
 yk = hp()
 yk.feed(page)
 yk.close()
