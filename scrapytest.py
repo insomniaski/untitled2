@@ -1,5 +1,5 @@
 
-from scrapy.spider import Spider
+from scrapy.spiders import Spider
 
 class DmozSpider(Spider):
   name = "dmoz"
@@ -11,3 +11,5 @@ class DmozSpider(Spider):
   def parse(self, response):
     filename = response.url.split("/")[-2]
     open(filename, 'wb').write(response.body)
+
+    
