@@ -25,3 +25,4 @@ while (1):
 
     #print string.find('/d{5}')
     url += string
+
