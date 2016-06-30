@@ -12,4 +12,3 @@ class DmozSpider(Spider):
     filename = response.url.split("/")[-2]
     open(filename, 'wb').write(response.body)
 
-    
