@@ -12,5 +12,5 @@ soup = BeautifulSoup(html,"lxml")
 
 for link in soup.find_all("span","title"):
 
-        print link.string
+        print link.string#yes
 
