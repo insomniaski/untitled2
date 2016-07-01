@@ -32,6 +32,8 @@ while (k<20):
                 #print link2
                 link3=link2.find_all("strong")
                 for elem in link3: print elem.get_text()
+                link4=soup2.find("h4")
+                print link4.find_next("strong").get_text()
 #
                 # link=link.find_next("span")
                 # print link.string
