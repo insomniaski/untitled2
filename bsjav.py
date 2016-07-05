@@ -31,7 +31,7 @@ def secondary_grab(url):
 
 
 while (k<2):
-        url = "http://avmo.pw/cn/actresses/page/"
+        url = "https://avmo.pw/cn/actresses/page/"
         # print k
         url+=str(k)
         print url
@@ -50,7 +50,7 @@ while (k<2):
                 url2= link.get('href')
                 print url2
                 link=link.find_next("span")
-                print link.string
+                #print link.string
                 secondary_grab(url2)
         k+=1
 
