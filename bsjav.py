@@ -8,7 +8,7 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 i=1
 k=1
-
+#update on 2017/5/15
 def secondary_grab(url):
     #print url
     #html_sec=requests.get(url,proxies=proxies).content
